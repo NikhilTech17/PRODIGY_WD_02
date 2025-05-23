@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mount Everest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Everest</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#climbers">Climbers</a></li>
+      <li><a href="#quote">Quotes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="content">
+      <h1>Mount Everest</h1>
+      <p>Explore the world's highest peak</p>
+      <button onclick="scrollDown()">Discover More</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="info">
+    <h2>About Everest</h2>
+    <p>Mount Everest is the highest mountain in the world, with a peak that reaches 8,848.86 meters...</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Everest Gallery</h2>
+    <div class="gallery-images">
+      <img src="image1.jpg" alt="Everest 1" />
+      <img src="image2.jpg" alt="Everest 2" />
+      <img src="image3.jpg" alt="Everest 3" />
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="info" id="stats">
+    <h2>Everest Facts</h2>
+    <div class="stats-container">
+      <div><h3>8,848.86 m</h3><p>Height Above Sea Level</p></div>
+      <div><h3>1953</h3><p>First Ascent</p></div>
+      <div><h3>+5,000</h3><p>Successful Climbers</p></div>
+    </div>
+  </section>
+
+  <!-- Climbers Section -->
+  <section class="gallery" id="climbers">
+    <h2>Famous Nepali Climbers</h2>
+    <div class="gallery-images">
+      <div><img src="tenzing.jpg" alt="Tenzing" /><p><strong>Tenzing Norgay</strong></p></div>
+      <div><img src="apa.jpg" alt="Apa Sherpa" /><p><strong>Apa Sherpa</strong></p></div>
+      <div><img src="pasang.jpg" alt="Pasang Lhamu" /><p><strong>Pasang Lhamu Sherpa</strong></p></div>
+    </div>
+  </section>
+
+  <!-- Quotes Section -->
+  <section id="quote" class="quote">
+    <h2>Inspirational Quotes</h2>
+    <blockquote>"It is not the mountain we conquer, but ourselves." – Sir Edmund Hillary</blockquote>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Your Email" required><br>
+      <textarea placeholder="Your Message" required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
