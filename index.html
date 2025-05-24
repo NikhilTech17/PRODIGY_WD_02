@@ -32,16 +32,18 @@
   <!-- About Section -->
   <section id="about" class="info">
     <h2>About Everest</h2>
-    <p>Mount Everest is the highest mountain in the world, with a peak that reaches 8,848.86 meters...</p>
+    <p>
+      Mount Everest is the highest mountain in the world... (content shortened for clarity)
+    </p>
   </section>
 
   <!-- Gallery Section -->
   <section id="gallery" class="gallery">
     <h2>Everest Gallery</h2>
     <div class="gallery-images">
-      <img src="image1.jpg" alt="Everest 1" />
-      <img src="image2.jpg" alt="Everest 2" />
-      <img src="image3.jpg" alt="Everest 3" />
+      <img src="images/gallery1.jpg" alt="Everest 1" />
+      <img src="images/gallery2.jpg" alt="Everest 2" />
+      <img src="images/gallery3.jpg" alt="Everest 3" />
     </div>
   </section>
 
@@ -49,40 +51,66 @@
   <section class="info" id="stats">
     <h2>Everest Facts</h2>
     <div class="stats-container">
-      <div><h3>8,848.86 m</h3><p>Height Above Sea Level</p></div>
-      <div><h3>1953</h3><p>First Ascent</p></div>
-      <div><h3>+5,000</h3><p>Successful Climbers</p></div>
+      <div>
+        <h3>8,848.86 m</h3>
+        <p>Height Above Sea Level</p>
+      </div>
+      <div>
+        <h3>1953</h3>
+        <p>First Ascent</p>
+      </div>
+      <div>
+        <h3>+5,000</h3>
+        <p>Successful Climbers</p>
+      </div>
     </div>
   </section>
 
-  <!-- Climbers Section -->
+  <!-- Famous Climbers Section -->
   <section class="gallery" id="climbers">
     <h2>Famous Nepali Climbers</h2>
     <div class="gallery-images">
-      <div><img src="tenzing.jpg" alt="Tenzing" /><p><strong>Tenzing Norgay</strong></p></div>
-      <div><img src="apa.jpg" alt="Apa Sherpa" /><p><strong>Apa Sherpa</strong></p></div>
-      <div><img src="pasang.jpg" alt="Pasang Lhamu" /><p><strong>Pasang Lhamu Sherpa</strong></p></div>
+      <div>
+        <img src="images/tenzing norgay.jpg" alt="Tenzing" />
+        <p><strong>Tenzing Norgay</strong><br>First summiteer</p>
+      </div>
+      <div>
+        <img src="images/apa sherpa.webp" alt="Apa Sherpa" />
+        <p><strong>Apa Sherpa</strong><br>21 Everest ascents</p>
+      </div>
+      <div>
+        <img src="images/pasang lhamu sherpa.jpg" alt="Pasang lhamu sherpa" />
+        <p><strong>Pasang Lhamu Sherpa</strong><br>14 peaks in 6 months</p>
+      </div>
     </div>
   </section>
 
   <!-- Quotes Section -->
   <section id="quote" class="quote">
     <h2>Inspirational Quotes</h2>
-    <blockquote>"It is not the mountain we conquer, but ourselves." – Sir Edmund Hillary</blockquote>
+    <blockquote>
+      "It is not the mountain we conquer, but ourselves." – Sir Edmund Hillary
+    </blockquote>
+    <blockquote>
+      "The dream of a Sherpa girl was to stand on top of Everest..." - Pasang Lhamu Sherpa
+    </blockquote>
+    <blockquote>
+      "To be a climber one has to accept that gratification is rarely immediate." – Tenzing Norgay Sherpa
+    </blockquote>
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Us</h2>
     <form>
-      <input type="text" placeholder="Your Name" required><br>
-      <input type="email" placeholder="Your Email" required><br>
-      <textarea placeholder="Your Message" required></textarea><br>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
       <button type="submit">Send</button>
     </form>
   </section>
 
-  <!-- Back to Top -->
+  <!-- Back to Top Button -->
   <button class="back-to-top" onclick="scrollToTop()">↑</button>
 
   <script src="script.js"></script>
