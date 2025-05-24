@@ -49,7 +49,7 @@ nav ul li a:hover {
 
 .hero {
   height: 100vh;
-  background: url('hero.jpg') center/cover fixed;
+  background: url('images/mt everest.jpg') center/cover fixed;
   display: flex;
   justify-content: center;
   align-items: center;
